@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .clearfix:after{
     content: '';
     display: table;
@@ -24,6 +28,7 @@ li{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -34,12 +39,18 @@ a{
 
 header{
     height: 70px;
+    width: 100%;
     line-height: 70px;
-    background-color: brown
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
 }
 nav{
     height: 70px;
-    background-color: beige;
+    margin: 0 10px;
+    /* background-color: beige; */
 
 }
 /* nav div{
@@ -74,12 +85,16 @@ footer{
 
 /* *** dheader *** */
 
+/* .debug header nav #logo{
+    height: 65%;
+} */
+/* #logo{
+    width: 50px;
+} */
 .debug header #logo{
-    width: 10%;
-}
-
-.debug header img{
     vertical-align: middle;
+    width: 120px;
+    margin-left: 10px;
 }
 
 
@@ -89,7 +104,17 @@ footer{
 
 .debug nav li a{
     padding: 0 25px;
+    margin: 0 10px;
 }
+
+.debug nav li #inizia{
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 7px 20px;
+    border: 1px solid black;
+}
+
+
 
 
 

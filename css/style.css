@@ -11,13 +11,99 @@
     display: table;
     clear: both;
 }
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
 
 
 /* *** HEADER *** */
+
+header{
+    height: 70px;
+    line-height: 70px;
+    background-color: brown
+}
+nav{
+    height: 70px;
+    background-color: beige;
+
+}
+/* nav div{
+    height: 100%;
+    width: 50%;
+    line-height: 70px;
+    background-color: beige;
+    border: 1px solid black;
+} */
+
+.jumbo{
+    height: 600px;
+    background-color: cornflowerblue;
+}
 
 /* *** MAIN *** */
 
 /* *** FOOTER *** */
 
+footer{
+    height: 500px;
+    background-color: black;
+}
+
+
+
+
+
+
+
 /* *** DEBUG *** */
+
+/* *** dheader *** */
+
+.debug header #logo{
+    width: 10%;
+}
+
+.debug header img{
+    vertical-align: middle;
+}
+
+
+.debug nav li{
+    display: inline-block;
+}
+
+.debug nav li a{
+    padding: 0 25px;
+}
+
+
+
+
+
+
+/* *** dmain*** */
+
+.debug main{
+    height: 2000px;
+    background-color: darkgreen;
+}
+/* *** dfooter *** */
+
+
+
 

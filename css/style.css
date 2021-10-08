@@ -47,6 +47,8 @@ a{
 
 
 
+
+
 /* *** HEADER *** */
 
 header{
@@ -54,11 +56,11 @@ header{
     width: 100%;
     line-height: 64px;
     border-bottom: 1px solid gray;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: white; */
+    background-color: white;
 }
 nav{
     height: 70px;
@@ -94,42 +96,50 @@ nav .last:hover{
 /* *** JUMBOTRON *** */
 
 
-.jumbo{
-    height: 580px;
+#jumbo{
     background-color: #b4d0e7;
-}
-
-.jumbo .container .row{
     margin-top: 30px;
 }
 
-.jumbo .container h1{
+#jumbo .container-jumbo{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: -80px;
+}
+
+
+#jumbo .container-jumbo .row{
+    margin-top: 30px;
+}
+
+#jumbo .container-jumbo h1{
     font-size: 70px;
 }
 
-.jumbo .container .col-sx{
+#jumbo .container-jumbo .col-sx{
     width: 30%;
     margin-right: 50px;
 }
-.jumbo .container .col-sx a{
+#jumbo .container-jumbo .col-sx a{
     display: inline-block;
     margin: 15px 0;
 }
-.jumbo .container .col-sx p{
+#jumbo .container-jumbo .col-sx p{
     font-size: 15px;
     font-weight: bold;
 }
-.jumbo .container .col-sx i{
+#jumbo .container-jumbo .col-sx i{
     font-size: 40px;
     padding-top: 30px;
 }
 
 
-.jumbo .container .col-dx{
+#jumbo .container-jumbo .col-dx{
     width: 60%;
 
 }
-.jumbo .container .col-dx img{
+#jumbo .container-jumbo .col-dx img{
     max-width: 820px;
 }
 

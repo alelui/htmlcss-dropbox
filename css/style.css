@@ -7,8 +7,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: 'Open Sans', sans-serif;}
 
 .clearfix:after{
     content: '';
@@ -31,6 +30,19 @@ a{
     color: black;
 }
 
+.btn{
+    color: white;
+    background-color: #0061ff;
+    padding: 7px 20px;
+    border: 1px solid black;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
 
 
 
@@ -40,37 +52,40 @@ a{
 header{
     height: 70px;
     width: 100%;
-    line-height: 70px;
-    position: fixed;
+    line-height: 64px;
+    border-bottom: 1px solid gray;
+    /* position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: white;
+    background-color: white; */
 }
 nav{
     height: 70px;
     margin: 0 10px;
 }
 
-header #logo{
-    vertical-align: middle;
+nav li a{
+    margin: 0 25px;
+}
+
+header nav img{
+    vertical-align: text-bottom;
     width: 122px;
 }
 
 nav li{
     display: inline-block;
 }
-
-nav li a{
-    padding: 0 25px;
-    margin: 0 10px;
+nav li:hover{
+    border-bottom: 2px solid black;
 }
 
-nav li .btn{
-    color: white;
-    background-color: rgb(0, 60, 255);
-    padding: 7px 20px;
-    border: 1px solid black;
+nav li#logo:hover{
+    border-bottom: none;
+}
+nav .last:hover{
+    border-bottom: none;
 }
 
 
@@ -80,8 +95,42 @@ nav li .btn{
 
 
 .jumbo{
-    height: 600px;
-    background-color: #82b2e6;
+    height: 580px;
+    background-color: #b4d0e7;
+}
+
+.jumbo .container .row{
+    margin-top: 30px;
+}
+
+.jumbo .container h1{
+    font-size: 70px;
+}
+
+.jumbo .container .col-sx{
+    width: 30%;
+    margin-right: 50px;
+}
+.jumbo .container .col-sx a{
+    display: inline-block;
+    margin: 15px 0;
+}
+.jumbo .container .col-sx p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.jumbo .container .col-sx i{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+
+.jumbo .container .col-dx{
+    width: 60%;
+
+}
+.jumbo .container .col-dx img{
+    max-width: 820px;
 }
 
 
@@ -99,17 +148,12 @@ footer{
 
 
 
-
 /* *** DEBUG *** */
 
 
-
-
-/* *** dmain*** */
-
 .debug main{
     height: 2000px;
-    background-color: darkgreen;
+    background-color: brown;
 }
 /* *** dfooter *** */
 

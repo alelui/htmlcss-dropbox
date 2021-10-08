@@ -50,21 +50,40 @@ header{
 nav{
     height: 70px;
     margin: 0 10px;
-    /* background-color: beige; */
-
 }
-/* nav div{
-    height: 100%;
-    width: 50%;
-    line-height: 70px;
-    background-color: beige;
+
+header #logo{
+    vertical-align: middle;
+    width: 122px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    padding: 0 25px;
+    margin: 0 10px;
+}
+
+nav li .btn{
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 7px 20px;
     border: 1px solid black;
-} */
+}
+
+
+
+
+/* *** JUMBOTRON *** */
+
 
 .jumbo{
     height: 600px;
-    background-color: cornflowerblue;
+    background-color: #82b2e6;
 }
+
 
 /* *** MAIN *** */
 
@@ -82,41 +101,6 @@ footer{
 
 
 /* *** DEBUG *** */
-
-/* *** dheader *** */
-
-/* .debug header nav #logo{
-    height: 65%;
-} */
-/* #logo{
-    width: 50px;
-} */
-.debug header #logo{
-    vertical-align: middle;
-    width: 120px;
-    margin-left: 10px;
-}
-
-
-.debug nav li{
-    display: inline-block;
-}
-
-.debug nav li a{
-    padding: 0 25px;
-    margin: 0 10px;
-}
-
-.debug nav li #inizia{
-    color: white;
-    background-color: rgb(0, 60, 255);
-    padding: 7px 20px;
-    border: 1px solid black;
-}
-
-
-
-
 
 
 

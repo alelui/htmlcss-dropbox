@@ -178,7 +178,7 @@ footer{
 .debug main .container {
     width: 72%;
     margin-top: 160px;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
 .debug main .main-top {
@@ -194,7 +194,6 @@ footer{
     width: calc(100% / 3 - 30px);
     height: 900px;
     border: 1px solid black;
-    /* background-color: blanchedalmond; */
 }
 
 .debug main .container .margin{
@@ -204,9 +203,10 @@ footer{
 .debug main .column .sub-title,
 main .column-under .sub-title{
     border-bottom: 1px solid black;
-    text-align: center;line-height: 20px;
-    line-height: 50px;
+    text-align: center;
+    line-height: 35px;
     width: 100%;
+    font-size: 14px;
 }
 
 .debug main .column .col-sub-container{
@@ -224,7 +224,8 @@ main .column-under .sub-title{
     font-size: 25px;
     padding-bottom: 12px;
 }
-.debug main .column .col-sub-container-top p{
+.debug main .column .col-sub-container-top p,
+main .column-under section p{
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 5px;
@@ -289,22 +290,27 @@ main .column-under{
     margin: 50px 0;
     border: 1px solid black;
     width: 100%;
+}
+
+main .column-under .center section{
+    width: 70%;
+    padding: 10px 30px;
+}
+
+main .column-under section h3{
+    font-size: 25px;
+    padding-bottom: 12px;
     
-    background-color: wheat
+}
+main .column-under .center span{
+    font-size: 12px;
+}
+
+main .column-under div.left{
+    padding: 20px 0;
 }
 
 
-/* main .column-under .sub-title{
-    border-bottom: 1px solid black;
-    text-align: center;line-height: 20px;
-    line-height: 50px;
-    width: 100%;
-} */
-
-/* main .column-under .container-under{
-    width: 50%;
-    margin: auto;
-} */
 
 
 

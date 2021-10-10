@@ -201,10 +201,12 @@ footer{
     margin: 0 45px;
 }
 
-.debug main .column .sub-title{
+.debug main .column .sub-title,
+main .column-under .sub-title{
     border-bottom: 1px solid black;
     text-align: center;line-height: 20px;
     line-height: 50px;
+    width: 100%;
 }
 
 .debug main .column .col-sub-container{
@@ -222,7 +224,7 @@ footer{
     font-size: 25px;
     padding-bottom: 12px;
 }
-.debug main .column .col-sub-container-top .price{
+.debug main .column .col-sub-container-top p{
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 5px;
@@ -246,6 +248,9 @@ footer{
     padding: 8px 0;
 }
 
+.col-sub-container-middle .botton-l{
+    margin: 15px 0;
+}
 
 .col-sub-container-middle div > span > a{
     color: blue;
@@ -273,6 +278,33 @@ footer{
     position: relative;
     bottom: 17px;
 }
+
+main div.misure{
+    width: 100%;
+
+}
+
+
+main .column-under{
+    margin: 50px 0;
+    border: 1px solid black;
+    width: 100%;
+    
+    background-color: wheat
+}
+
+
+/* main .column-under .sub-title{
+    border-bottom: 1px solid black;
+    text-align: center;line-height: 20px;
+    line-height: 50px;
+    width: 100%;
+} */
+
+/* main .column-under .container-under{
+    width: 50%;
+    margin: auto;
+} */
 
 
 

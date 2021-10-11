@@ -400,7 +400,7 @@ font-size: 40px;
 .debug main .cubo-middle{
     width: 40%;
     height: 400px;
-    background-color: lightsteelblue;
+    background-color: rgb(229, 235, 247);
 }
 
 .debug main .cubo .cubetto{
@@ -443,6 +443,27 @@ font-size: 40px;
 .gold{
     background-color: goldenrod;
 }
+
+.debug main .cubo-middle .mini-container{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    font-size: 12px;
+}
+
+.debug main .cubo-middle .company img{
+    width: 130px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.debug main .cubo-middle .company p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
 
 /* *** dfooter *** */
 

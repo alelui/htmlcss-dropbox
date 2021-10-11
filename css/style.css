@@ -170,14 +170,13 @@ footer{
 /* *** DEBUG *** */
 
 
-.debug main{
+/* .debug main{
     height: 2000px;
-    
-}
+} */
 
 .debug main .container {
     width: 72%;
-    margin-top: 160px;
+    margin-top: 130px;
     /* background-color: lightgrey; */
 }
 
@@ -282,7 +281,6 @@ main .column-under section p{
 
 main div.misure{
     width: 100%;
-
 }
 
 
@@ -311,6 +309,69 @@ main .column-under div.left{
 }
 
 
+.debug main .partener{
+    width: 100%;
+}
+
+.debug main .partener img{
+    width: 470px;
+}
+
+.debug main .partener .text{
+    width: 45%;
+    padding: 20px 50px;
+    font-size: 12px;
+}
+
+.debug main .partener .text .btn{
+    background-color: white;
+    color: black;
+    font-weight: unset;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.debug main .partener .text h3{
+    font-size: 20px;
+    margin-bottom: 10px 0;
+}
+
+.debug main .partener .text p{
+    line-height: 20px;
+    margin: 15px 0;
+}
+
+
+.debug main .companies{
+    width: 100%;
+    background-color: lightyellow;
+    margin: 70px 0;
+}
+
+.debug main .companies .row{
+    width: 100%;
+    
+    background-color: lightgreen;
+}
+
+.debug main .companies .box{
+    width: calc( 100% / 3 - 16px );
+    margin: 0 8px;
+    
+}
+
+.debug main .companies .box img{
+    width: 330px;
+}
+
+.debug main .companies .box h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.debug main .companies .box p{
+    font-size: 12px;
+}
 
 
 

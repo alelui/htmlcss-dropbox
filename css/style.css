@@ -392,6 +392,33 @@ font-size: 40px;
 }
 
 
+.debug main .cubo{
+    width: 30%;
+    height: 400px;
+}
+
+.debug main .cubo-middle{
+    width: 40%;
+    height: 400px;
+    background-color: lightsteelblue;
+}
+
+.debug main .cubo .cubetto{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    background-color: coral;
+    border: 1px solid black;
+}
+
+.debug main .cubo .cubetto img{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    filter: invert(1);
+}
+
 /* *** dfooter *** */
 
 

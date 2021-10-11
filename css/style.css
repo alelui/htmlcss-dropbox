@@ -462,6 +462,40 @@ font-size: 40px;
     margin-bottom: 20px;
 }
 
+.debug main .sub-companies{
+    width: 100%;
+    height: 300px;
+    background-color: #b4d0e7;
+}
+.debug main .sub-companies div{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.debug main .sub-companies div h2,
+.debug main .sub-companies div .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.debug main .sub-companies div h2{
+    font-size: 35px;
+}
+
+.debug main .sub-companies div .btn{
+    background-color: white;
+    color: black;
+}
+
+.debug main .faq{
+    width: 100%;
+    height: 500px;
+}
+
+
 
 
 

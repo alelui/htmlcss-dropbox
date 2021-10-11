@@ -406,8 +406,6 @@ font-size: 40px;
 .debug main .cubo .cubetto{
     width: calc(100% / 2);
     height: calc(100% / 2);
-    background-color: coral;
-    border: 1px solid black;
 }
 
 .debug main .cubo .cubetto img{
@@ -417,6 +415,33 @@ font-size: 40px;
     left: 50%;
     transform: translate( -50%, -50%);
     filter: invert(1);
+}
+
+.lightgreen{
+    background-color: lightgreen;
+    border: 30px double rgb(202, 247, 202);
+}
+.brown{
+    background-color: rgb(116, 32, 32);
+}
+.azzure{
+    background-color: rgb(52, 146, 247);
+}
+.red{
+    background-color: red;
+}
+
+.dark-red{
+    background-color: darkred;
+}
+.lightblue{
+    background-color: #b4d0e7;
+}
+.dark-blue{
+    background-color: darkblue;
+}
+.gold{
+    background-color: goldenrod;
 }
 
 /* *** dfooter *** */

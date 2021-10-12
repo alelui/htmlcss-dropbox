@@ -7,7 +7,8 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 
@@ -137,7 +138,6 @@ nav .last:hover{
 }
 #jumbo .container-jumbo .col-sx p{
     font-size: 15px;
-    font-weight: bold;
 }
 #jumbo .container-jumbo .col-sx i{
     font-size: 40px;
@@ -162,6 +162,7 @@ footer{
     width: 100%;
     height: 500px;
     background-color: black;
+    padding: 100px;
 }
 
 
@@ -521,20 +522,19 @@ font-size: 40px;
 }
 
 
-
-
 .debug footer .footer-container{
     width: 90%;
     margin: auto;
     padding: 30px 0;
+    background-color:cyan;
 }
 
 
 .debug footer .footer-menu{
-    width: calc( 100% / 5 - 150px );
+    width: calc( 100% / 5 - 75px );
     height: 200px;
-    background-color:cyan;
-    padding: 0 30px;
+    background-color: red;
+    margin-right: 75px;
 }
 
 

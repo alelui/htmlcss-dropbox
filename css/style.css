@@ -362,7 +362,6 @@ font-size: 40px;
 }
 
 
-
 .debug main .operations .box img{
     width: 100%
 }
@@ -486,13 +485,7 @@ font-size: 40px;
     height: 500px;
 }
 
-
-/* .debug main .faq{
-    line-height: 60px;
-} */
-
 .debug main .faq .questions{
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 30px 0;
 }
@@ -503,6 +496,16 @@ font-size: 40px;
     right: 0;
     transform: translate( -0, -50%);
     font-size: 20px;
+}
+
+.debug main .faq h2{
+    font-size: 30px;
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+}
+
+.debug main .faq .questions #hiden{
+    width: 90%;
 }
 
 .debug main .faq .questions #hiden,

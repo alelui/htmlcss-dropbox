@@ -12,6 +12,15 @@ body{
     font-size: 12px;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.relative{
+    position: relative;
+}
+
 .clearfix:after{
     content: '';
     display: table;
@@ -41,16 +50,6 @@ a{
 }
 .btn-lung{
     padding: 5px 45px;
-}
-
-.container{
-    width: 80%;
-    margin: auto;
-    /* background-color: cadetblue; */
-}
-
-.relative{
-    position: relative;
 }
 
 
@@ -156,53 +155,31 @@ nav .last:hover{
 
 /* *** MAIN *** */
 
-/* *** FOOTER *** */
-
-footer{
-    width: 100%;
-    height: 500px;
-    background-color: black;
-    padding: 100px;
-}
-
-
-
-
-
-
-/* *** DEBUG *** */
-
-
-/* .debug main{
-    height: 2000px;
-} */
-
-.debug main .container {
+main .container {
     width: 72%;
     margin-top: 130px;
-    /* background-color: lightgrey; */
 }
 
-.debug main .main-top {
+main .main-top {
     padding: 30px 0;
 }
 
-.debug main .main-top h2{
+main .main-top h2{
     padding: 30px 0;
     font-size: 40px;
 }
 
-.debug main .container .column{
+main .container .column{
     width: calc(100% / 3 - 30px);
     height: 900px;
     border: 1px solid black;
 }
 
-.debug main .container .margin{
+main .container .margin{
     margin: 0 45px;
 }
 
-.debug main .column .sub-title,
+main .column .sub-title,
 main .column-under .sub-title{
     border-bottom: 1px solid black;
     text-align: center;
@@ -211,7 +188,7 @@ main .column-under .sub-title{
     font-size: 14px;
 }
 
-.debug main .column .col-sub-container{
+main .column .col-sub-container{
     width: 80%;
     margin: auto;
     height: 200px;
@@ -222,11 +199,11 @@ main .column-under .sub-title{
     padding: 12px 0;
 }
 
-.debug main .column .col-sub-container-top h2{
+main .column .col-sub-container-top h2{
     font-size: 25px;
     padding-bottom: 12px;
 }
-.debug main .column .col-sub-container-top p,
+main .column .col-sub-container-top p,
 main .column-under section p{
     font-size: 15px;
     font-weight: bold;
@@ -309,20 +286,20 @@ main .column-under div.left{
 }
 
 
-.debug main .partener{
+main .partener{
     width: 100%;
 }
 
-.debug main .partener img{
+main .partener img{
     width: 470px;
 }
 
-.debug main .partener .text{
+main .partener .text{
     width: 45%;
     padding: 20px 50px;
 }
 
-.debug main .partener .text .btn{
+main .partener .text .btn{
     background-color: white;
     color: black;
     font-weight: unset;
@@ -330,78 +307,78 @@ main .column-under div.left{
     margin: 10px 0;
 }
 
-.debug main .partener .text h3{
+main .partener .text h3{
     font-size: 20px;
     margin-bottom: 10px 0;
 }
 
-.debug main .partener .text p{
+main .partener .text p{
     line-height: 20px;
     margin: 15px 0;
 }
 
 
-.debug main .operations{
+main .operations{
     width: 100%;
     margin: 70px 0;
 }
 
-.debug main .operations h2{
+main .operations h2{
 font-size: 40px;
 }
 
-.debug main .operations .row{
+main .operations .row{
     width: 100%;
     margin: 50px 0;
 }
 
-.debug main .operations .box{
+main .operations .box{
     width: calc( 100% / 3 - 40px );
 }
 
-.debug main .operations .box.center{
+main .operations .box.center{
     margin: 0 60px;
 }
 
 
-.debug main .operations .box img{
+main .operations .box img{
     width: 100%
 }
 
-.debug main .operations .box h3{
+main .operations .box h3{
     font-size: 20px;
     margin: 10px 0;
 }
 
-.debug main .container section #team-title{
+main .container section #team-title{
     font-size: 45px;
     margin-top: 150px;
 }
 
-.debug main .container section #scopri{
+main .container section #scopri{
     text-decoration: underline;
     display: inline-block;
     margin: 30px 0;
 }
 
 
-.debug main .cubo{
+main .cubo{
     width: 30%;
     height: 400px;
 }
 
-.debug main .cubo-middle{
+main .cubo-middle{
     width: 40%;
     height: 400px;
     background-color: rgb(229, 235, 247);
 }
 
-.debug main .cubo .cubetto{
+main .cubo .cubetto{
     width: calc(100% / 2);
     height: calc(100% / 2);
 }
 
-.debug main .cubo .cubetto img{
+main .cubo .cubetto img{
     width: 150px;
     position: absolute;
     top: 50%;
@@ -437,62 +414,62 @@ font-size: 40px;
     background-color: goldenrod;
 }
 
-.debug main .cubo-middle .mini-container{
+main .cubo-middle .mini-container{
     width: 80%;
     margin: auto;
     padding: 50px 0;
 }
 
-.debug main .cubo-middle .company img{
+main .cubo-middle .company img{
     width: 130px;
     padding-bottom: 30px;
     border-bottom: 1px solid black;
 }
 
-.debug main .cubo-middle .company p{
+main .cubo-middle .company p{
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.debug main .sub-companies{
+main .sub-companies{
     width: 100%;
     height: 300px;
     background-color: #b4d0e7;
 }
-.debug main .sub-companies div{
+main .sub-companies div{
     width: 50%;
     height: 100%;
     float: left;
 }
 
-.debug main .sub-companies div h2,
-.debug main .sub-companies div .btn{
+main .sub-companies div h2,
+main .sub-companies div .btn{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
 }
 
-.debug main .sub-companies div h2{
+main .sub-companies div h2{
     font-size: 35px;
 }
 
-.debug main .sub-companies div .btn{
+main .sub-companies div .btn{
     background-color: white;
     color: black;
 }
 
-.debug main .faq{
+main .faq{
     width: 100%;
     height: 500px;
 }
 
-.debug main .faq .questions{
+main .faq .questions{
     border-bottom: 1px solid black;
     padding: 30px 0;
 }
 
-.debug main .faq .questions i{
+main .faq .questions i{
     position: absolute;
     top: 50%;
     right: 0;
@@ -500,26 +477,47 @@ font-size: 40px;
     font-size: 20px;
 }
 
-.debug main .faq h2{
+main .faq h2{
     font-size: 30px;
     padding: 30px 0;
     border-bottom: 1px solid black;
 }
 
-.debug main .faq .questions #hiden{
+main .faq .questions #hiden{
     width: 90%;
 }
 
-.debug main .faq .questions #hiden,
-.debug main .faq .questions .fa-chevron-up,
-.debug main .faq .questions:hover .fa-chevron-down{
+main .faq .questions #hiden,
+main .faq .questions .fa-chevron-up,
+main .faq .questions:hover .fa-chevron-down{
     display: none;
 }
 
-.debug main .faq .questions:hover #hiden,
-.debug main .faq .questions:hover .fa-chevron-up{
+main .faq .questions:hover #hiden,
+main .faq .questions:hover .fa-chevron-up{
     display: block;
 }
+
+
+
+
+
+/* *** FOOTER *** */
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    padding: 100px;
+}
+
+
+
+
+
+
+/* *** DEBUG *** */
+
 
 
 .debug footer .footer-container{
@@ -538,8 +536,6 @@ font-size: 40px;
 }
 
 
-
-/* *** dfooter *** */
 
 
 

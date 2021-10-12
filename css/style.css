@@ -7,7 +7,9 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;}
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
 
 .clearfix:after{
     content: '';
@@ -27,7 +29,6 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
 }
 
 .btn{
@@ -212,7 +213,7 @@ main .column-under .sub-title{
     width: 80%;
     margin: auto;
     height: 200px;
-    font-size: 12px;
+    
 }
 
 .col-sub-container-top{
@@ -297,12 +298,9 @@ main .column-under .center section{
 
 main .column-under section h3{
     font-size: 25px;
-    padding-bottom: 12px;
-    
+    padding-bottom: 12px;   
 }
-main .column-under .center span{
-    font-size: 12px;
-}
+
 
 main .column-under div.left{
     padding: 20px 0;
@@ -320,7 +318,6 @@ main .column-under div.left{
 .debug main .partener .text{
     width: 45%;
     padding: 20px 50px;
-    font-size: 12px;
 }
 
 .debug main .partener .text .btn{
@@ -375,17 +372,12 @@ font-size: 40px;
     margin: 10px 0;
 }
 
-.debug main .operations .box p{
-    font-size: 12px;
-}
-
 .debug main .container section #team-title{
     font-size: 45px;
     margin-top: 150px;
 }
 
 .debug main .container section #scopri{
-    color: blue;
     text-decoration: underline;
     display: inline-block;
     margin: 30px 0;
@@ -419,7 +411,7 @@ font-size: 40px;
 
 .lightgreen{
     background-color: lightgreen;
-    border: 30px double rgb(202, 247, 202);
+    border: 20px double rgb(202, 247, 202);
 }
 .brown{
     background-color: rgb(116, 32, 32);
@@ -448,7 +440,6 @@ font-size: 40px;
     width: 80%;
     margin: auto;
     padding: 50px 0;
-    font-size: 12px;
 }
 
 .debug main .cubo-middle .company img{
@@ -496,6 +487,34 @@ font-size: 40px;
 }
 
 
+/* .debug main .faq{
+    line-height: 60px;
+} */
+
+.debug main .faq .questions{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+}
+
+.debug main .faq .questions i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate( -0, -50%);
+    font-size: 20px;
+}
+
+.debug main .faq .questions #hiden,
+.debug main .faq .questions .fa-chevron-up,
+.debug main .faq .questions:hover .fa-chevron-down{
+    display: none;
+}
+
+.debug main .faq .questions:hover #hiden,
+.debug main .faq .questions:hover .fa-chevron-up{
+    display: block;
+}
 
 
 
